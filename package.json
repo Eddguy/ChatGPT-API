@@ -1,7 +1,20 @@
 {
+  "name": "chatgpt_api",
+  "author": "Eddie Cubas - <ecubasmarine2019@fau.edu>",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "how to do API calls with ChatGPT using node.js and swagger",
+  "main": "chatGPTConnect.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node chatGPTConnect.js"
+  },
   "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
     "express": "^4.18.3",
     "node.js": "^0.0.1-security",
+    "openai": "^4.29.0",
     "parse": "^4.3.1",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0"
