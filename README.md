@@ -2,7 +2,7 @@
 
 This project demonstrates how to make API calls to ChatGPT using Node.js and Swagger UI.
 
-**Note: Initially, max_tokens is set without a limit of 100, which can limit your responses can lead to excess API rates. Please use caution.**
+**Note: Initially, max_tokens is set with a limit of 100, which can limit your responses. Increasing the limit can lead to excess API rates. Please use caution.**
 
 ## Project Overview
 
@@ -22,7 +22,7 @@ This project uses environment variables to store sensitive information, such as 
 
 To set up the project locally, create a `.env` file in the root directory and add your API key as follows:
 
-`OPENAI_API_KEY=` YOUR_API_KEY
+`OPENAI_API_KEY=YOUR_API_KEY`
 
 ## Security Considerations
 
